@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(231, 230, 230);
+    /* background-color: rgb(252, 248, 248); */
+    /* overflow-y: hidden; */
+}
+
+body *{
+    box-sizing: border-box;
+    
+}
+
+/* Menu nav */
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: rgb(255, 255, 255); */
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    height: 15%;
+    border: 1.8px solid rgb(221, 220, 220);
+    z-index: 2;
+    
+}
+
+.menu-nav{
+    list-style: none;
+    display: flex;
+    
+}
+
+ .menu-nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    /* color: yellow; */
+    border-radius: 20px;
+    margin: 0px 10px;
+    font-weight: 900;
+    border: 20px;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    /* text-shadow: rgb(180, 162, 0) 0px 0.5px; */
+
+}
+
+.menu-nav a:hover, .menu-nav a.ativo{
+      /* color: rgb(255, 255, 255); */
+      color: rgb(0, 0, 0);
+      /* background: rgb(255, 215, 0); */
+      background: black;
+      background: rgb(255, 255, 255);
+}
+
+.menu-nav > li{
+    margin-left: 50px;
+    letter-spacing: 3px;
+   
+}
+
+.logo{
+    width: 15vw;
+    
+}
+
+.main-cadastro{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(231, 230, 230);
+    /* background-color: rgb(252, 248, 248); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-esquerdo{
+    width: 50vw;
+    height: 100vh;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cadastro-esquerdo > h1{
+    color:rgb(255, 215, 0);;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+
+
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+  }
+
+.cadastro-direito{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+.card-cadastro{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px; /* 1ºvalor- É em relação ao eixo y (no caso em cima) 2ºvalor- É em relação ao eixo x (direita e esquerda) */
+    background: rgb(255, 215, 0);
+    border-radius: 20px;
+    /*box-shadow: 0px 20px 40px #523772 ; /* 1ºvalor- É em relação ao eixo x (direito ou esquerdo) 2ºvalor- É em relação ao eixo y (em cima ou baixo, caso utiliza um valor "-" vai para cima) 3ºvalor- bloor o desfoque da cor ) */
+}
+
+.card-cadastro > h1{
+    color: #fff;
+    font-weight: 900;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.textfield{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textfield > input{
+    width: 100%;
+    border:none;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    color: #ffffff;
+    font-size: 12pt;
+    box-sizing: 0px 20px 40px #3668ff ;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: azure;
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textfield >input::placeholder{
+    color:rgb(255, 225, 58);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-cadastar{
+    width: 100%;
+    padding: 16px 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #ffffff;
+    background: rgb(41, 40, 39);
+    cursor: pointer;
+    box-shadow: 0px 1px 40px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+button{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+    .card-cadastro{
+        width: 85%;
+
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    nav{
+        width: 100vw;
+    }
+   
+    .main-cadastro{
+        flex-direction: column;
+    }
+    
+    .cadastro-esquerdo > h1{
+        display: none;
+    }
+
+    .cadastro-esquerdo{
+        width: 100%;
+        height: auto;
+    }
+    .cadastro-direito{
+        width: 100%;
+        height: auto;
+    }
+
+    .menu-nav{
+        display: none;
+    }
+
+
+    svg{
+        display: none;
+    }
+
+    .logo{
+        width: 40vh;
+        margin-top: 80px;
+    }
+    
+
+    .card-cadastro{
+        width: 90vw;
+    }
+    .card-cadastro> h1{
+        width: 100%;
+        font-size: 2.6em
+    }
+
+    
+}

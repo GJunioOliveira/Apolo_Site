@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(231, 230, 230);
+    /* background-color: rgb(252, 248, 248); */
+}
+
+body *{
+    box-sizing: border-box;
+    
+}
+
+/* Menu */
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: rgb(255, 255, 255); */
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    height: 15%;
+    border: 1.8px solid rgb(221, 220, 220);
+    z-index: 2;
+    
+}
+
+.logo{
+    width: 15vw;
+    
+}
+
+.menu-nav{
+    list-style: none;
+    display: flex;
+    
+}
+
+ .menu-nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    /* color: yellow; */
+    border-radius: 20px;
+    margin: 0px 10px;
+    font-weight: 900;
+    border: 20px;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    /* text-shadow: rgb(180, 162, 0) 0px 0.5px; */
+}
+
+.menu-nav a:hover, .menu-nav a.ativo{
+    /* color: rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    /* background: rgb(255, 215, 0); */
+    /* background: black; */
+    background: #FFC300;
+    /* background: rgb(255, 255, 255); */
+}
+
+.menu-nav > li{
+    margin-left: 50px;
+    letter-spacing: 3px;
+   
+}
+
+.main-fun{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px 0px;
+    
+    
+}
+
+.fun-esquerdo{
+    width: 50vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+      
+}
+
+.fun-direito{
+    width: 50vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+h1{
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 40vw;
+}
+
+/* Parte Dois */
+
+.main-fun2,.main-fun3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(231, 230, 230);
+    /* background-color: rgb(252, 248, 248); */
+    
+}
+
+.card{
+    background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px; /* 1ºvalor- É em relação ao eixo y (no caso em cima) 2ºvalor- É em relação ao eixo x (direita e esquerda) */
+        flex-direction: column;
+        
+    
+}
+
+
+
+
+.card> h3, .card>p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.card> a img{
+    width: 20vw;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.card> a img:hover{
+    transform: translateY(-10px); /* O valor negativo faz a imagem "pular" para cima */
+}
+
+
+
+.card a:hover{
+    color:rgb(255, 215, 0);;
+    
+}
+   
+/*  Css Mobile */ 
+.menu-mobile{
+    display: none;
+    cursor: pointer;
+}
+
+.menu-mobile div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    /* background: #000; */
+    margin: 8px;
+}
+
+
+/* Final */
+
+.final{
+    display: flex;
+    width: 100vw;
+    height: 45vh;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(255, 215, 0);
+    margin-top: 300px;
+    }
+    
+    .Apolo{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Funcionalidades{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        margin-left: 0px;
+        font-size: 12.5px;
+    }
+
+    .Sobre{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+    .logo-5{
+        width: 20vw;
+        margin-left: 70px;
+    }
+
+    .Funcionalidades > ul li, a{
+        list-style: none;
+       text-decoration: none;
+       font-size: 1.1em;
+       font-family: 'Poppins', sans-serif;
+       color: black;
+    }
+
+    
+    #icon{
+        margin-left: 10px;
+    }
+    
+    .redes-icons{
+    margin-right: 225px;
+    /* box-shadow: 0px 0.2px 0px 0px ; */
+    }
+        .redes-icons> img{
+            width: 4vw;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .redes-icons > a{
+            width: 3vw;
+            align-items: center;
+            justify-content: space-around;
+            }
+        
+        .redes{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+    @media only screen and (max-width:999px) {
+ 
+        body{
+            margin: 0;
+            overflow-x: hidden;
+            /* overflow-y:; */
+            
+        }
+        
+        body *{
+            box-sizing: border-box;
+            
+            
+        }
+        
+    
+             nav{
+                width: 100%;
+             }
+    
+             .main-inicio{
+                width: 100%;
+                height: 100%;
+                box-shadow: none;
+             }
+    
+             .inicio-esquerdo{
+                width: 60vw;
+                height: 100vh;
+                display: flex;
+             }
+    
+             
+             .inicio-direito{
+                width: 40vw;
+                height: 100vh;
+             }
+    
+             .main2{
+                width: 100%;
+                height: 100%;
+                margin-top: 5%;
+             }
+    
+             .main3{
+                width: 100%;
+                height: 100%;
+                margin-top: 5%;
+             }
+    
+             .final{
+                width: 100%;
+                height: 100%;
+             }
+            
+            
+            
+             /* Mobile */
+             .menu-mobile li{
+                margin-left: 0;
+                opacity: 0;
+             }
+    
+          .menu-nav{
+            position: absolute;
+            top: 8vh;
+            right: 0;
+            width: 50vw;
+            height: 60vh;
+            background: white;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in;
+          }
+    
+          .menu-nav.active{
+            transform: translateX(0);
+          }
+    
+          .menu-mobile{
+            display: block;
+          }
+    
+             
+    }
+    
+    
+    
+    @keyframes navLinkFade {
+        from{
+            opacity: 0;   
+            transform: translateX(50px);     
+         } /* from */
+    
+         to{
+                opacity: 1;
+                transform: translateX(0);
+         } /*to */
+    
+    } /* keyframe */
+    
+    
+    
+    @media only screen and (min-width:799) {
+        .main-inicio{
+            width: 100%;
+            height: 100%;
+            box-shadow: none;
+         }
+    
+         .inicio-esquerdo{
+            width: 60vw;
+            height: 100vh;
+            display: flex;
+         }
+    
+         
+         .inicio-direito{
+            width: 40vw;
+            height: 100vh;
+         }
+    
+         .main2{
+            width: 100%;
+            height: 100%;
+            margin-top: 5%;
+         }
+    
+         .main3{
+            width: 100%;
+            height: 100%;
+            margin-top: 5%;
+         }
+    
+         .final{
+            width: 100%;
+            height: 100%;
+         }
+    }
+    
+    
+    
+    @media only screen and (max-width: 600px) {
+    
+
+        .logo{
+            width: 70%;   
+        }
+
+        nav{
+            width: 100vw;
+            height: 10%;
+        }
+
+        .menu-mobile{
+            margin-right: 15%;
+         }
+    
+        .menu-nav{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background: #FFC300;
+            top: 120px;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .menu-nav > li{
+            display: block;
+            font-size: 110%;
+            margin: 20%;
+            margin-right: 25%;
+            
+           
+        }
+
+
+
+
+        .main-fun{
+            width: 100%;
+            height: 100%;
+            box-shadow: none;
+            flex-direction: column;
+            
+        }
+    
+       
+    
+         .fun-esquerdo{
+            
+            
+         }
+    
+         
+         .fun-direito{
+            height: 40vh;
+            margin-bottom: 100px;
+         }
+
+         .fun-direito > img{
+            width: 100vw;
+         }
+
+         .card{
+            
+         }
+
+         .card >p{
+            font-size: 1.1em;
+         } 
+    
+         .main-fun2{
+            width: 100vw;
+            height: 100%;
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            
+    
+         }
+    
+         .fun-direito2{
+            width: 15%;
+            height: 100%;
+        }
+
+        /* Final */
+        .logo-5{
+            width: 30%;
+        }
+          
+             .final{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+             }
+        
+             .Apolo{
+                width: 100vh;
+                
+                margin-left: 75%;
+                align-items: flex-start;
+               justify-content: flex-start;
+             }
+        
+            
+             .Funcionalidades{
+                width: 100vh;
+                
+                margin-left: 120%;
+                align-items: flex-start;
+               justify-content: flex-start;
+             }
+        
+           
+             .Sobre{
+                width: 100vw;
+                height: 150%;
+                margin-left: 10%;
+                align-items: flex-start;
+               justify-content: flex-start;
+             }
+        
+             .redes-icons > img{
+                
+                width: 25%;
+                align-items: flex-start;
+                justify-content: flex-start;
+             }
+        
+    }

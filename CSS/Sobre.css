@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0;
+     overflow-x: hidden; 
+     background-color: rgb(231, 230, 230);
+     /* background-color: rgb(252, 248, 248); */
+}
+
+body *{
+    box-sizing: border-box;
+}
+
+/* Menu */
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: rgb(255, 255, 255); */
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    height: 15%;
+    border: 1.8px solid rgb(221, 220, 220);
+    z-index: 2;
+}
+
+.menu-nav{
+    list-style: none;
+    display: flex;
+    
+}
+
+ .menu-nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    /* color: yellow; */
+    border-radius: 20px;
+    margin: 0px 10px;
+    font-weight: 900;
+    border: 20px;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    /* text-shadow: rgb(180, 162, 0) 0px 0.5px; */
+
+
+}
+
+.menu-nav a:hover, .menu-nav a.ativo{
+      /* color: rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    /* background: rgb(255, 215, 0); */
+    /* background: black; */
+    background: #FFC300;
+    /* background: rgb(255, 255, 255); */
+}
+
+.menu-nav > li{
+    margin-left: 50px;
+    letter-spacing: 3px;
+   
+}
+
+.logo{
+    width: 15vw;
+    position: relative;   
+}
+
+.main-sobre{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(231, 230, 230);
+    /* background-color: rgb(252, 248, 248); */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.sobre-esquerdo{ 
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.sobre-direito{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-direito > h1 {
+   letter-spacing: 2px;
+   padding: 20px;
+   font-size: 3em;
+
+
+}
+
+/* Parte 2 */
+.main-sobre2, .main3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(255, 215, 0);
+    z-index: 2;
+}
+
+.my-element {
+    display: none;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+
+#img{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+#img1{
+    width: 65%;
+    position: relative;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+/* #img2{
+    width: 70%;
+    position: relative;
+    left: 0%;
+    margin-bottom: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+  /*  
+#Quem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fle
+    position: absolute;
+}
+
+#Nossa{
+    position: absolute;
+}
+
+#Valor{
+    position: absolute;
+}
+*/
+
+
+
+
+
+
+#bloco1{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 215, 0);
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+.centro-sobre{
+    width: 80vw;
+    height: 100vh;
+    background-color: rgb(231, 230, 230);
+    /* background-color: rgb(252, 248, 248); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sec{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+#nossa_missão{
+        margin-top: 20%;
+}
+
+
+section > h2 {
+    align-items: center;
+    margin-left: 39%;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+section > p {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+
+
+#bloco2{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 215, 0);
+    position: absolute;
+  
+}
+#bloco2{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 215, 0);
+    position: absolute;
+    z-index: 2;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* .bloco{ 
+    width: 300px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    bottom: 10%;
+    margin-left: -20px;
+}
+*/
+
+/* .bloco > h1{ 
+   width: 20vw;
+    color: aliceblue;
+}
+*/
+
+#texto{
+    position: absolute;
+    margin-right: 30px;
+    color:rgb(255, 215, 0);;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+    
+}
+
+.sobre-esquerdo> img{
+    width: 50vw;
+    position: absolute;
+    z-index: 1;     
+}
+
+/* Final */
+
+.final{
+    display: flex;
+    width: 100vw;
+    height: 45vh;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(255, 215, 0);
+    margin-top: 300px;
+    }
+    
+    .Apolo{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Funcionalidades{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        margin-left: 0px;
+        font-size: 12.5px;
+    }
+
+    .Sobre{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .Funcionalidades > ul li, a{    
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-family: 'Poppins', sans-serif;
+        color: black;  
+    }
+
+    
+    .logo-5{
+        width: 20vw;
+        margin-left: 70px;
+    }
+
+    #icon{
+        width: 3vw;
+        margin-left: 10px;
+    }
+
+    .redes-icons{
+        margin-right: 225px;
+        /* box-shadow: 0px 0.2px 0px 0px ; */
+        }
+        
+        .redes-icons> img{
+            width: 4vw;
+            align-items: center;
+            justify-content: space-around;
+        
+        
+        }
+
+        .redes-icons > a{
+            width: 3vw;
+            align-items: center;
+            justify-content: space-around;
+            }
+
+            
+        
+        .redes{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+    /* Css Mobile */
+.menu-mobile{
+    display: none;
+    cursor: pointer;
+}
+
+.menu-mobile div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    /* background: #000; */
+    margin: 8px;
+}
+
+
+@media only screen and (max-width:999px) {
+ 
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        /* overflow-y:; */
+        
+    }
+    
+    body *{
+        box-sizing: border-box;
+        
+        
+    }
+    
+
+         nav{
+            width: 100%;
+         }
+
+         .main-sobre{
+            width: 100%;
+            height: 100%;
+            box-shadow: none;
+         }
+
+         .sobre-esquerdo{
+            width: 60vw;
+            height: 100vh;
+         }
+
+         
+         .sobre-direito{
+            width: 40vw;
+            height: 100vh;
+         }
+
+         element.style {
+            display: none;
+        }
+
+         #texto{
+            position: static;
+         }
+
+         img{
+            position: static;
+         }
+         
+
+         .sobre2{
+            width: 100%;
+            height: 100%;
+            margin-top: 5%;
+         }
+
+         .sobre3{
+            width: 100%;
+            height: 100%;
+            margin-top: 5%;
+         }
+
+         .final{
+            width: 100%;
+            height: 100%;
+         }
+        
+        
+        
+         /* Mobile */
+         .menu-mobile li{
+            margin-left: 0;
+            opacity: 0;
+         }
+
+      .menu-nav{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 60vh;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+      }
+
+      .menu-nav.active{
+        transform: translateX(0);
+      }
+
+      .menu-mobile{
+        display: block;
+      }
+
+         
+}
+
+
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;   
+        transform: translateX(50px);     
+     } /* from */
+
+     to{
+            opacity: 1;
+            transform: translateX(0);
+     } /*to */
+
+} /* keyframe */
+
+
+@media only screen and (max-width: 600px)  {
+    
+    body{
+        margin: 0;
+         overflow-x: hidden; 
+    }
+    
+    body *{
+        box-sizing: border-box;
+    }
+
+    .logo{
+        width: 70%;   
+    }
+
+    nav{
+        width: 100vw;
+        height: 10%;
+    }
+
+    .menu-mobile{
+        margin-right: 15%;
+     }
+
+    .menu-nav{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: #FFC300;
+        top: 120px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-nav > li{
+        display: block;
+        font-size: 110%;
+        margin: 20%;
+        margin-right: 25%;
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+    .main-sobre{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+ 
+    .sobre-esquerdo{
+     display: none;
+    }
+    
+   
+
+    .sobre-direito >.h1{
+        margin: 0px;
+    }
+
+    
+    .main-sobre2{
+        width: 100%;
+        height: 100vh;
+        background: white;
+    }
+
+    .centro-sobre{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .sec{
+        margin-top: 90%;
+        font-size: 12px;
+    }
+
+    section > h2 {
+        margin-left: 115px;
+    }
+
+    .bloco1{
+        display: none;
+    }
+
+    .bloco2{
+        display: none;
+    }
+
+    .logo-5{
+        width: 30%;
+    }
+     
+    /* Final */
+         .final{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+         }
+    
+         .Apolo{
+            width: 100vh;
+            
+            margin-left: 75%;
+            align-items: flex-start;
+           justify-content: flex-start;
+         }
+    
+        
+         .Funcionalidades{
+            width: 100vh;
+            
+            margin-left: 120%;
+            align-items: flex-start;
+           justify-content: flex-start;
+         }
+    
+       
+         .Sobre{
+            width: 100vw;
+            height: 150%;
+            margin-left: 10%;
+            align-items: flex-start;
+           justify-content: flex-start;
+         }
+    
+         .redes-icons > img{
+            
+            width: 25%;
+            align-items: flex-start;
+            justify-content: flex-start;
+         }
+    
+
+
+}
