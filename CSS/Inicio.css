@@ -261,54 +261,51 @@ button{
 /* Final */
 
 .final{
-display: flex;
-width: 100vw;
-height: 10%;
-justify-content: space-around;
-align-items: center;
-background: #FFC300;
-margin-top: 300px;
-
-}
-
-
-.Apolo{  
-    width: 20%;
-   height: 50vh;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    width: 100vw;
+    height: 45vh;
+    justify-content: space-around;
     align-items: center;
-   
-}
-.Funcionalidades{
-    width: 30%;
-   height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-}
+    background: #FFC300;
+    margin-top: 300px;
+    }
+    
+    .Apolo{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Funcionalidades{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-#sub{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    margin-left: 10px;
-    font-size: 12.5px;
-}
+    #sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        margin-left: 0px;
+        font-size: 12.5px;
+    }
 
-.Sobre{
-    width: 50%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
-}
+    .Sobre{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
 
 .logo-5{
   margin-left: 70px;
