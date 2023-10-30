@@ -224,7 +224,7 @@ img{
 }
 
 .mobile{
-    background: rgb(255, 215, 0);
+    background: #FFC300;
     width: 75%;
     display: flex;
     justify-content: center;
@@ -266,7 +266,7 @@ width: 100vw;
 height: 10%;
 justify-content: space-around;
 align-items: center;
-background: rgb(255, 215, 0);
+background: #FFC300;
 margin-top: 300px;
 
 }

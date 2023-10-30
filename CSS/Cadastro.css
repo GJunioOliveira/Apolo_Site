@@ -51,10 +51,11 @@ nav {
 
 .menu-nav a:hover, .menu-nav a.ativo{
       /* color: rgb(255, 255, 255); */
-      color: rgb(0, 0, 0);
-      /* background: rgb(255, 215, 0); */
-      background: black;
-      background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* background: rgb(255, 215, 0); */
+    /* background: black; */
+    background: #FFC300;
+    /* background: rgb(255, 255, 255); */
 }
 
 .menu-nav > li{
@@ -89,10 +90,11 @@ nav {
 }
 
 .cadastro-esquerdo > h1{
-    color:rgb(255, 215, 0);;
+    color:rgb(0, 0, 0);
+    /* color:rgb(255, 215, 0); */
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    
+    text-shadow: 1.5px 1px 1px #FFC300;
 
 
 }
@@ -128,7 +130,8 @@ svg {
 }
 
 .card-cadastro > h1{
-    color: #fff;
+    color: #000000;
+    /* color: #fff; */
     font-weight: 900;
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -149,7 +152,8 @@ svg {
     margin: 5px;
     border-radius: 15px;
     padding: 15px;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    /* background: rgb(255, 255, 255); */
     color: #ffffff;
     font-size: 12pt;
     box-sizing: 0px 20px 40px #3668ff ;
@@ -158,14 +162,16 @@ svg {
 }
 
 .textfield > label {
-    color: azure;
+    color: rgb(0, 0, 0);
+    /* color: azure; */
     font-size: 20px;
     margin-bottom: 3px;
     font-family: 'Poppins', sans-serif;
 }
 
 .textfield >input::placeholder{
-    color:rgb(255, 225, 58);
+    color:rgb(255, 255, 255);
+    /* color:rgb(255, 215, 0); */
     font-family: 'Poppins', sans-serif;
 
 }

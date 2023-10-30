@@ -153,7 +153,7 @@ img{
 
 
 .card a:hover{
-    color:rgb(255, 215, 0);;
+    color:#FFC300;
     
 }
    
@@ -180,7 +180,7 @@ img{
     height: 45vh;
     justify-content: space-around;
     align-items: center;
-    background: rgb(255, 215, 0);
+    background: #FFC300;
     margin-top: 300px;
     }
     
