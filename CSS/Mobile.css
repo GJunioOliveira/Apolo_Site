@@ -146,6 +146,16 @@ nav {
         justify-content: center;
         align-items: center;
     }
+
+    #sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        margin-left: 10px;
+        font-size: 12.5px;
+    }
+
     .Sobre{
         width: 50%;
         height: 100%;
@@ -165,6 +175,7 @@ nav {
     }
 
     #icon{
+        width: 3vw;
         margin-left: 10px;
     }
 
