@@ -114,14 +114,14 @@ nav {
 }
 
 .cadastramento-esquerdo > p{
-    margin-right: 90px;
+    margin-left: 15px;
     font-family: 'Poppins', sans-serif;
-
 }
 
+
 #imagem{
-    margin-right: 100px;
-    z-index: 1;
+    width: 110%;
+    margin-right: 85px;
 }
 
 /* Final */
