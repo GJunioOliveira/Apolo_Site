@@ -236,24 +236,15 @@ img{
 
     
     #icon{
-        margin-left: 10px;
+        width: 3vw;
+        margin-left: 15px;
     }
     
     .redes-icons{
-    margin-right: 225px;
+    margin-right: 270px;
     /* box-shadow: 0px 0.2px 0px 0px ; */
     }
-        .redes-icons> img{
-            width: 4vw;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        .redes-icons > a{
-            width: 3vw;
-            align-items: center;
-            justify-content: space-around;
-            }
+      
         
         .redes{
             display: flex;
