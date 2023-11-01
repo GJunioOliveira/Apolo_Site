@@ -24,7 +24,7 @@ nav {
     background: rgb(0, 0, 0);
     width: 100vw;
     height: 15%;
-    border: 1.8px solid rgb(221, 220, 220);
+    border: 1.8px solid rgb(0, 0, 0);
     z-index: 2;
 }
 
@@ -109,12 +109,12 @@ nav {
 }
 
 .cadastramento-esquerdo > h1{
-    margin-left: 90px;
+    margin-left: 10%;
     font-family: 'Poppins', sans-serif;
 }
 
 .cadastramento-esquerdo > p{
-    margin-left: 15px;
+    margin-right: 6%;
     font-family: 'Poppins', sans-serif;
 }
 

@@ -22,7 +22,7 @@ nav {
     width: 100vw;
     height: 15%;
     /* border: 2px groove #FFC300; */
-    border: 1.8px groove rgb(221, 220, 220);
+    border: 1.8px groove rgb(0, 0, 0);
     z-index: 2;
 }
 
