@@ -500,30 +500,164 @@ section > p {
 
 
 @media only screen and (max-width: 600px)  {
-    
-    body{
-        margin: 0;
-         overflow-x: hidden; 
-    }
-    
-    body *{
-        box-sizing: border-box;
-    }
 
     .logo{
-        width: 70%;   
+        width: 40%;
     }
 
     nav{
+        position: fixed;
         width: 100vw;
-        height: 10%;
+        height: 20%;
     }
 
-    .menu-mobile{
-        margin-right: 15%;
-     }
 
-    .menu-nav{
+ .main-sobre, .main-sobre2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+ }
+
+
+
+ .sobre-esquerdo{
+    display: none;
+ }
+
+.sobre-direito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    margin-top: 20%;
+}
+
+#bloco1, #bloco2, #bloco3, #bloco4, #bloco5,#bloco6{
+    display: none;
+}
+
+.centro-sobre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec > h2{
+    text-align: center;
+    margin-right: 40%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2,p{
+    text-align: center;
+}
+
+/* Quem somos */
+
+#img1{
+    width: 70%;
+   
+}
+
+/* Fim Quem somos */
+
+/* nossa_missão */
+
+#nossa_missão{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80%;
+}
+
+#img{
+    width: 60%;
+    margin-right: 55%;
+}
+
+/* Fim nossa_missão */
+
+
+/* nossos_valores */
+
+
+#nossos_valores{
+    
+    margin-top: 100%;
+}
+
+
+/* Fim nossos_valores */
+
+
+
+    /* Final */
+    .logo-5{
+        margin: 0;
+        width: 50%;
+    }
+      
+         .final{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+         }
+    
+         .Apolo{
+            width: 100%;
+            align-items: flex-start;
+            justify-content: flex-start;
+         }
+    
+        
+         .Funcionalidades{
+            width: 100%;
+            margin-left: 4%;
+            align-items: flex-start;
+            justify-content: flex-start;
+         }
+
+         ul{
+            text-align: start;
+         }
+
+         #sub{
+            margin-left: 2%;
+         }
+    
+       
+         .Sobre{
+            width: 100%;
+            height: 100%;
+            margin-left: 10%;
+            align-items: flex-start;
+            justify-content: flex-start;
+         }
+
+         #icon{
+            width: 10%;
+         }
+
+         .redes-icons{
+            margin-top: 5%;
+         }
+
+
+
+         /* .menu-nav{
         position: fixed;
         width: 100vw;
         height: 100vh;
@@ -543,102 +677,8 @@ section > p {
     }
  
  
- 
- 
- 
- 
-    .main-sobre{
-        width: 100%;
-        height: 100vh;
-        flex-direction: column;
-    }
- 
-    .sobre-esquerdo{
-     display: none;
-    }
+  */
+         
     
-   
-
-    .sobre-direito >.h1{
-        margin: 0px;
-    }
-
     
-    .main-sobre2{
-        width: 100%;
-        height: 100vh;
-        background: white;
-    }
-
-    .centro-sobre{
-        width: 100vw;
-        height: 100vh;
-    }
-
-    .sec{
-        margin-top: 90%;
-        font-size: 12px;
-    }
-
-    section > h2 {
-        margin-left: 115px;
-    }
-
-    .bloco1{
-        display: none;
-    }
-
-    .bloco2{
-        display: none;
-    }
-
-    .logo-5{
-        width: 30%;
-    }
-     
-    /* Final */
-         .final{
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-         }
-    
-         .Apolo{
-            width: 100vh;
-            
-            margin-left: 75%;
-            align-items: flex-start;
-           justify-content: flex-start;
-         }
-    
-        
-         .Funcionalidades{
-            width: 100vh;
-            
-            margin-left: 120%;
-            align-items: flex-start;
-           justify-content: flex-start;
-         }
-    
-       
-         .Sobre{
-            width: 100vw;
-            height: 150%;
-            margin-left: 10%;
-            align-items: flex-start;
-           justify-content: flex-start;
-         }
-    
-         .redes-icons > img{
-            
-            width: 25%;
-            align-items: flex-start;
-            justify-content: flex-start;
-         }
-    
-
-
-}
+ } /* 600px */
