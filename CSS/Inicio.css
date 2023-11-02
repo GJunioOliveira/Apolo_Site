@@ -416,78 +416,178 @@ font-family: 'Poppins', sans-serif;
 */
 
 
-@media only screen and (min-width: 800px) {
-    html {
-      zoom: .9;        
-    }
+
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores, como smartphones */
+  
+  
+  
+    .main-inicio, .main2, .main3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
   }
 
-  @media only screen and (min-width: 1000px) {
-    html {
-      zoom: 1;
-    }
+
+  .inicio-direito,.inicio-direito1,.inicio-direito2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+   .inicio-esquerdo> h1,.inicio-esquerdo>p{
+    font-size: 16px;
+    margin-right: 10%;
   }
 
 
+  /* card main2 */
 
+  .card > img{
+    width: 70%;
+  }
+
+  .card{
+    position: static;
+  }
+
+   #card1{
+    width: 200%;
+  }
+
+  #card2{
+    width: 50%;
+  }
+
+  /* </card main2 */
+
+  /* main3 */
+  .mobile{
+    width: 70%;
+  }
+
+  #mobile-img{
+    width: 60%;
+  }
+
+  /* Fim main3 */
+
+  /* final */
+  .final{
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Fim final */
+
+
+
+
+
+
+ } /*Max-width:768 */
+
+
+ 
 
 
 @media only screen and (max-width:999px) {
+
+
+    .main-inicio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        
+    }
+
+    .main2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+     .main3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+    
+    
+      .inicio-direito,.inicio-direito1,.inicio-direito2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+
+      .inicio-esquerdo, .inicio-esquerdo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+    
+       .inicio-esquerdo> h1{
+        font-size: 25px;
+        margin-left: 70%;
+        text-align: center;
+      }
+
+      .inicio-esquerdo>p{
+        display: none;
+      }
+
+      #inicio{
+        margin-left: 30%;
+        width: 100%;
+      }
+
+      /* card main2 */
+
+  .card > img{
+    width: 70%;
+    
+  }
+
+  .card{
+    position: static;
+  }
+
+   #card1{
+    margin-left: 20%;
+    
+  }
+
+  #card2{
+    margin-right: 20%;
+  
+}
  
-    body{
-        margin: 0;
-        overflow-x: hidden;
-        /* overflow-y:; */
-        
-    }
-    
-    body *{
-        box-sizing: border-box;
-        
-        
-    }
-    
 
-         nav{
-            width: 100%;
-         }
+  /* </card main2 */
 
-         .main-inicio{
-            width: 100%;
-            height: 100%;
-            box-shadow: none;
-         }
 
-         .inicio-esquerdo{
-            width: 60vw;
-            height: 100vh;
-            display: flex;
-         }
 
-         
-         .inicio-direito{
-            width: 40vw;
-            height: 100vh;
-         }
 
-         .main2{
-            width: 100%;
-            height: 100%;
-            margin-top: 5%;
-         }
-
-         .main3{
-            width: 100%;
-            height: 100%;
-            margin-top: 5%;
-         }
-
-         .final{
-            width: 100%;
-            height: 100%;
-         }
-        
-        
+  
         
          /* Mobile */
          .menu-mobile li{
@@ -540,44 +640,6 @@ font-family: 'Poppins', sans-serif;
 
 
 
-@media only screen and (min-width:799) {
-    .main-inicio{
-        width: 100%;
-        height: 100%;
-        box-shadow: none;
-     }
-
-     .inicio-esquerdo{
-        width: 60vw;
-        height: 100vh;
-        display: flex;
-     }
-
-     
-     .inicio-direito{
-        width: 40vw;
-        height: 100vh;
-     }
-
-     .main2{
-        width: 100%;
-        height: 100%;
-        margin-top: 5%;
-     }
-
-     .main3{
-        width: 100%;
-        height: 100%;
-        margin-top: 5%;
-     }
-
-     .final{
-        width: 100%;
-        height: 100%;
-     }
-}
-
-
 
 @media only screen and (max-width: 600px) {
 
@@ -617,17 +679,6 @@ font-family: 'Poppins', sans-serif;
         margin-right: 50%;
        
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
     .main-inicio{

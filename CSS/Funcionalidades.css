@@ -357,7 +357,7 @@ img{
     
     
     
-    @media only screen and (min-width:799) {
+    @media only screen and (max-width:768) {
         .main-inicio{
             width: 100%;
             height: 100%;
@@ -399,137 +399,116 @@ img{
     @media only screen and (max-width: 600px) {
     
 
-        .logo{
-            width: 70%;   
-        }
-
         nav{
             width: 100vw;
-            height: 10%;
         }
 
-        .menu-mobile{
-            margin-right: 15%;
-         }
-    
-        .menu-nav{
-            position: fixed;
-            width: 100vw;
-            height: 100vh;
-            background: #FFC300;
-            top: 120px;
-            left: 0;
+        .main-inicio, .main-fun3{
             display: flex;
-            justify-content: center;
             align-items: center;
-        }
-    
-        .menu-nav > li{
-            display: block;
-            font-size: 110%;
-            margin: 20%;
-            margin-right: 25%;
-            
-           
-        }
-
-
-
-
-        .main-fun{
+            justify-content: center;
+            flex-direction: column;
             width: 100%;
             height: 100%;
-            box-shadow: none;
-            flex-direction: column;
-            
         }
-    
-       
-    
-         .fun-esquerdo{
-            
-            
-         }
-    
-         
-         .fun-direito{
-            height: 40vh;
-            margin-bottom: 100px;
-         }
-
-         .fun-direito > img{
-            width: 100vw;
-         }
-
-         .card{
-            
-         }
-
-         .card >p{
-            font-size: 1.1em;
-         } 
-    
          .main-fun2{
-            width: 100vw;
-            height: 100%;
-            margin-top: 5%;
             display: flex;
-            justify-content: space-around;
-            flex-direction: column;
-            
-    
-         }
-    
-         .fun-direito2{
-            width: 15%;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            width: 100%;
             height: 100%;
         }
+
+        #imagen-inicio{
+            display: none;
+        }
+
+        .fun-direito, .fun-esquerdo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .fun-esquerdo > h1{
+            margin-left:100%;
+            text-align: center;
+        }
+
+
+        /* Card */
+
+        
+        
+        
+        .card > p{
+            display: none;
+        }
+
+        /* Fim Card */
+        
+
+
 
         /* Final */
         .logo-5{
-            width: 30%;
+            margin: 0;
+            width: 50%;
         }
           
              .final{
-                width: 100vw;
-                height: 100vh;
+                width: 100%;
+                height: 100%;
                 display: flex;
-                align-items: center;
-                justify-content: center;
+                align-items: flex-start;
+                justify-content: flex-start;
                 flex-direction: column;
              }
         
              .Apolo{
-                width: 100vh;
-                
-                margin-left: 75%;
-                align-items: flex-start;
-               justify-content: flex-start;
-             }
-        
-            
-             .Funcionalidades{
-                width: 100vh;
-                
-                margin-left: 120%;
-                align-items: flex-start;
-               justify-content: flex-start;
-             }
-        
-           
-             .Sobre{
-                width: 100vw;
-                height: 150%;
-                margin-left: 10%;
-                align-items: flex-start;
-               justify-content: flex-start;
-             }
-        
-             .redes-icons > img{
-                
-                width: 25%;
+                width: 100%;
                 align-items: flex-start;
                 justify-content: flex-start;
              }
         
-    }
+            
+             .Funcionalidades{
+                width: 100%;
+                margin-left: 4%;
+                align-items: flex-start;
+                justify-content: flex-start;
+             }
+
+             ul{
+                text-align: start;
+             }
+
+             #sub{
+                margin-left: 2%;
+             }
+        
+           
+             .Sobre{
+                width: 100%;
+                height: 100%;
+                margin-left: 10%;
+                align-items: flex-start;
+                justify-content: flex-start;
+             }
+
+             #icon{
+                width: 10%;
+             }
+
+             .redes-icons{
+                margin-top: 5%;
+             }
+
+             
+        
+        
+     } /* 600px */
