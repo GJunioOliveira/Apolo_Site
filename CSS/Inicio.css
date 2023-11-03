@@ -145,6 +145,10 @@ nav {
     /* background-color: rgb(252, 248, 248); */
 }
 
+#texto-mobile{
+    display: none;
+}
+
 .inicio-esquerdo2{
     display: flex;
     width: 50vw;
@@ -417,12 +421,12 @@ font-family: 'Poppins', sans-serif;
 
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     /* Estilos para telas menores, como smartphones */
   
   
   
-    .main-inicio, .main2, .main3 {
+    /* .main-inicio, .main2, .main3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -443,13 +447,13 @@ font-family: 'Poppins', sans-serif;
 
    .inicio-esquerdo> h1,.inicio-esquerdo>p{
     font-size: 16px;
-    margin-right: 10%;
+    margin-left: 100%;
   }
 
 
   /* card main2 */
 
-  .card > img{
+  /* .card > img{
     width: 70%;
   }
 
@@ -457,18 +461,12 @@ font-family: 'Poppins', sans-serif;
     position: static;
   }
 
-   #card1{
-    width: 200%;
-  }
 
-  #card2{
-    width: 50%;
-  }
 
   /* </card main2 */
 
   /* main3 */
-  .mobile{
+  /* .mobile{
     width: 70%;
   }
 
@@ -479,7 +477,7 @@ font-family: 'Poppins', sans-serif;
   /* Fim main3 */
 
   /* final */
-  .final{
+  /* .final{
     width: 100%;
     height: 100%;
   }
@@ -491,7 +489,7 @@ font-family: 'Poppins', sans-serif;
 
 
 
- } /*Max-width:768 */
+ /* } Max-width:768 */
 
 
  
@@ -584,8 +582,12 @@ font-family: 'Poppins', sans-serif;
 
   /* </card main2 */
 
+ 
 
 
+  .Sobre{
+   margin-left: 3%;
+ }
 
   
         
@@ -643,20 +645,13 @@ font-family: 'Poppins', sans-serif;
 
 @media only screen and (max-width: 600px) {
 
-    body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        overflow-x: hidden;
-    }
-
     .logo{
-        width: 70%;   
+        width: 50%;   
     }
 
     nav{
         width: 100vw;
-        height: 10%;
+        height: 15%;
     }
 
     .menu-nav{
@@ -682,9 +677,11 @@ font-family: 'Poppins', sans-serif;
 
 
     .main-inicio{
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         box-shadow: none;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
 
@@ -697,7 +694,7 @@ font-family: 'Poppins', sans-serif;
         align-items: center;
         justify-content: center;
         text-align: center;   
-        margin-right: 40px;  
+        margin-left: 50%;
         font-size: 2em;
         margin-top: 20%;
     }
@@ -708,23 +705,17 @@ font-family: 'Poppins', sans-serif;
     
 
 
-     .inicio-esquerdo{
-            width: 100vw;
-            height: 100vh;
+     .inicio-esquerdo,.inicio-direito{
+            width: 100%;
+            height: 100%;
             display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
      }
 
      
-     .inicio-direito{
-        width: 100vw;
-        height: 50vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-     }
+    
 
      #inicio{
         margin: 0;
@@ -733,7 +724,7 @@ font-family: 'Poppins', sans-serif;
 
      /* Main2 */
 
-     .main2{
+     .main2, .inicio-direito2,.inicio-esquerdo2 {
         width: 100%;
         height: 100%;
         margin-top: 5%;
@@ -743,39 +734,43 @@ font-family: 'Poppins', sans-serif;
 
      }
 
-  
+     #texto-mobile{
+        display: block;
+        margin: 20%;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+      }
     
-    .inicio-direito1{
-        justify-content: center;       
-    }
-    .inicio-direito2{
-        justify-content: center;       
-    }
 
+     /* Cards 2 */
      .card{
-        width: 100%;
-        position: static;   
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background: none;
+        box-shadow: none;
      }
 
      .card > p{
-     text-align: center;
-    }
-
-    #card1{
-        margin-top: 70%;
-    }
-
-    #card2{
-        margin-top: 220%;
-    }
-    
-
-
-
-     img{
-        width: 100%;
+        display: none;
      }
+
+
+     #card1{
+        width: 60%;
+        margin-right: 24%;
+     }
+
+     #card2{
+        width: 60%;
+        margin-left: 18%;
+     }
+
+  /* Fim Cards 2 */
+
+
+     
 
 /* Main3 */
 
@@ -788,53 +783,59 @@ font-family: 'Poppins', sans-serif;
 
 
 
- /* final */
 
+/* Final */
 .logo-5{
-    width: 30%;
+    margin: 0;
+    width: 50%;
 }
   
      .final{
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
         flex-direction: column;
      }
 
      .Apolo{
-        width: 100vh;
-        
-        margin-left: 75%;
-        align-items: flex-start;
-       justify-content: flex-start;
-     }
-
-    
-     .Funcionalidades{
-        width: 100vh;
-        
-        margin-left: 120%;
-        align-items: flex-start;
-       justify-content: flex-start;
-     }
-
-   
-     .Sobre{
-        width: 100vw;
-        height: 80%;
-        margin-left: 10%;
-        align-items: flex-start;
-       justify-content: flex-start;
-     }
-
-     .redes-icons > img{
-        
-        width: 25%;
+        width: 100%;
         align-items: flex-start;
         justify-content: flex-start;
      }
 
+    
+     .Funcionalidades{
+        width: 100%;
+        margin-left: 4%;
+        align-items: flex-start;
+        justify-content: flex-start;
+     }
+
+     ul{
+        text-align: start;
+     }
+
+     #sub{
+        margin-left: 2%;
+     }
+
    
-}
+     .Sobre{
+        width: 100%;
+        height: 100%;
+        margin-left: 10%;
+        align-items: flex-start;
+        justify-content: flex-start;
+     }
+
+     #icon{
+        width: 10%;
+     }
+
+     .redes-icons{
+        margin-top: 5%;
+     }
+
+    }
