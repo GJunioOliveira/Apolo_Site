@@ -1,9 +1,9 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $servername = "seu_servidor";
-    $username = "seu_usuario";
-    $password = "sua_senha";
-    $database = "seu_banco_de_dados";
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "bd_site";
 
     // Crie uma conexão
     $conn = new mysqli($servername, $username, $password, $database);
@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $senha = $_POST["senha"];
 
     // Inserir os dados no banco de dados
-    $sql = "INSERT INTO sua_tabela (nome, telefone, email, senha) VALUES ('$nome', '$telefone', '$email', '$senha')";
+    $sql = "INSERT INTO clientes (nome, telefone, email, senha) VALUES ('$nome', '$telefone', '$email', '$senha')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Cadastro realizado com sucesso!";

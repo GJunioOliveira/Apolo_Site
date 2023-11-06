@@ -24,7 +24,7 @@
  
              <ul id="menu" class="menu-nav">
                  <li class="animate__animated animate__backInRight"><a id="1" href="../HTML/Funcionalidades.html">Funcionalidades</a></li>
-                 <li class="animate__animated animate__backInRight"><a id="1" href="../HTML/Planos.html">Planos</a></li>
+                 <!-- <li class="animate__animated animate__backInRight"><a id="1" href="../HTML/Planos.html">Planos</a></li> -->
                  <li class="animate__animated animate__backInRight"><a id="1" href="../HTML/Sobre.html">Sobre nós</a></li>
                  <li class="animate__animated animate__tada animate__repeat-2"><a id="1" class="ativo" href="../HTML/Cadastro.html">Cadastra-se</a></li>
              </ul>
@@ -45,7 +45,7 @@
         <div class="cadastro-direito">
 
             <div class="card-cadastro">
-                <h1>Cadastra-se</h1>
+                <h1>Cadastre-se</h1>
                 <form id="form" method="POST" action="Cadastro.php">
                     <br>
                     <div class="textfield">
@@ -56,7 +56,7 @@
 
                     <div class="textfield">
                         <label for="email">Email:</label>
-                        <input type="email" id="email" placeholder="Digite o seu email" />
+                        <input type="email" id="email" placeholder="Digite o seu email" autocomplete="on" />
                     </div> <!-- email -->
 
                     <div class="textfield">
@@ -66,7 +66,7 @@
 
                     <div class="textfield">
                         <label for="senha">Senha:</label>
-                        <input type="password" id="senha" placeholder="Digite sua senha" />
+                        <input type="password" id="senha" autocomplete="on" placeholder="Digite sua senha" />
                     </div> <!-- senha -->
 
                     <button type="submit" class="btn-cadastar" id="salvar">Cadastrar</button>
