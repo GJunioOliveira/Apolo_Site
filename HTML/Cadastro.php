@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
+    // $servername = "localhost";
+    $username = "GJunioOliveira";
+    $password = "E7YpRxouWNS1";
     $database = "bd_site";
 
     // Crie uma conexão
@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $senha = $_POST["senha"];
 
     // Inserir os dados no banco de dados
-    $sql = "INSERT INTO clientes (nome, telefone, email, senha) VALUES ('$nome', '$telefone', '$email', '$senha')";
+    $sql = "INSERT INTO bd_site (nome, telefone, email, senha) VALUES ('$nome', '$telefone', '$email', '$senha')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Cadastro realizado com sucesso!";
