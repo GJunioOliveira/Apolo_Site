@@ -1,12 +1,12 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // $servername = "localhost";
-    $username = "GJunioOliveira";
-    $password = "E7YpRxouWNS1";
-    $database = "bd_site";
-
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "bd_site";
+    
     // Crie uma conexão
-    $conn = new mysqli($servername, $username, $password, $database);
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
     // Verifique a conexão
     if ($conn->connect_error) {
