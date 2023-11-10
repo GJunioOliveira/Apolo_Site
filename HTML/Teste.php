@@ -1,13 +1,13 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "@ep-purple-poetry-44819183.us-east-2.aws.neon.tech";
+$username = "GJunioOliveira";
+$password = "************";
 $dbname = "bd_site";
 
-// Crie uma conexão
+// Criar uma conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Verifique a conexão
+// Verificar a conexão
 if ($conn->connect_error) {
     die("Erro na conexão: " . $conn->connect_error);
 }

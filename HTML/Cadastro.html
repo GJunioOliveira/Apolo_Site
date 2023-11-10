@@ -46,7 +46,7 @@
 
             <div class="card-cadastro">
                 <h1>Cadastre-se</h1>
-                <form id="form" method="post" action="teste.php">
+                <form id="form" method="post" action="">
                     <br>
                     <div class="textfield">
                         <label for="nome">Nome completo:</label>
@@ -69,7 +69,7 @@
                         <input type="password" id="senha" autocomplete="on" placeholder="Digite sua senha" name="senha" />
                     </div> <!-- senha -->
 
-                    <button type="submit" class="btn-cadastar" id="salvar">Cadastrar</button>
+                    <input type="button" onclick="cadastrarUsuario()" class="btn-cadastar" id="salvar" value="Cadastrar">
                 </form>
             </div> <!-- cadastro-direito -->
         </div> <!-- textfield -->
@@ -79,6 +79,27 @@
 
     <!-- JavaScript -->
     <script>
+        async function cadastrarUsuario() {
+            alert(JSON.stringify({
+                    email: document.getElementById("email").value,
+                    nome: document.getElementById("nome").value,
+                    senha: document.getElementById("senha").value,
+                    telefone: document.getElementById("telefone").value,
+                }))
+            await fetch("https://api-apolotech.onrender.com/cadastro", {
+                method: "POST",
+                headers: {
+                    'content-type': "application/json"
+                },
+                body: JSON.stringify({
+                    email: document.getElementById("email").value,
+                    nome: document.getElementById("nome").value,
+                    senha: document.getElementById("senha").value,
+                    telefone: document.getElementById("telefone").value,
+                })
+            }).then(res => alert("Cadastrado com sucesso!")).catch(err => alert(err))
+        }
+
         $(document).ready(function () {
             var salvar = document.getElementById("salvar");
             var form = document.getElementById("form");
