@@ -98,13 +98,14 @@ nav {
 }
 
 .sobre-direito > h1 {
-    text-shadow: 1px 1px 1px black;
+   /* text-shadow: 1px 1px 1px black; */
    letter-spacing: 2px;
    padding: 20px;
    font-size: 3em;
-
-
+   
 }
+
+
 
 /* Parte 2 */
 .main-sobre2, .main3{
@@ -276,7 +277,7 @@ section > p {
 #texto{
     position: absolute;
     margin-right: 30px;
-    color:rgb(255, 215, 0);;
+    color: black;
     font-family: 'Poppins', sans-serif;
     z-index: 1;
     
