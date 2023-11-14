@@ -587,6 +587,7 @@ font-family: 'Poppins', sans-serif;
 
   .Sobre{
    margin-left: 3%;
+
  }
 
   
@@ -696,7 +697,7 @@ font-family: 'Poppins', sans-serif;
         text-align: center;   
         margin-left: 50%;
         font-size: 2em;
-        margin-top: 20%;
+        margin-top: 50%;
     }
 
     .inicio-esquerdo >p{
@@ -737,6 +738,7 @@ font-family: 'Poppins', sans-serif;
      #texto-mobile{
         display: block;
         margin: 20%;
+        text-align: center;
         font-size: 25px;
         font-family: 'Poppins', sans-serif;
       }
@@ -758,12 +760,12 @@ font-family: 'Poppins', sans-serif;
 
 
      #card1{
-        width: 60%;
+        width: 70%;
         margin-right: 24%;
      }
 
      #card2{
-        width: 60%;
+        width: 70%;
         margin-left: 18%;
      }
 
@@ -832,6 +834,10 @@ font-family: 'Poppins', sans-serif;
 
      #icon{
         width: 10%;
+     }
+
+     #mobile-img{
+        width: 70%;
      }
 
      .redes-icons{
