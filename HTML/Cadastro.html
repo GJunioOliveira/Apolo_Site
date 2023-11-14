@@ -64,10 +64,10 @@
                         <input type="text" id="telefone" placeholder="Digite seu telefone" name="telefone" />
                     </div> <!-- telefone -->
 
-                    <div class="textfield">
+                    <!-- <div class="textfield">
                         <label for="senha">Senha:</label>
                         <input type="password" id="senha" autocomplete="on" placeholder="Digite sua senha" name="senha" />
-                    </div> <!-- senha -->
+                    </div> senha -->
 
                     <input type="button" onclick="cadastrarUsuario()" class="btn-cadastar" id="salvar" value="Cadastrar">
                 </form>
@@ -83,7 +83,7 @@
             alert(JSON.stringify({
                     email: document.getElementById("email").value,
                     nome: document.getElementById("nome").value,
-                    senha: document.getElementById("senha").value,
+                    // senha: document.getElementById("senha").value,
                     telefone: document.getElementById("telefone").value,
                 }))
             await fetch("https://api-apolotech.onrender.com/cadastro", {
@@ -94,7 +94,7 @@
                 body: JSON.stringify({
                     email: document.getElementById("email").value,
                     nome: document.getElementById("nome").value,
-                    senha: document.getElementById("senha").value,
+                    // senha: document.getElementById("senha").value,
                     telefone: document.getElementById("telefone").value,
                 })
             }).then(res => alert("Cadastrado com sucesso!")).catch(err => alert(err))
@@ -110,13 +110,13 @@
                 var nome = document.getElementById("nome").value;
                 var telefone = document.getElementById("telefone").value;
                 var email = document.getElementById("email").value;
-                var senha = document.getElementById("senha").value;
+                // var senha = document.getElementById("senha").value;
 
                 var obj = {
                     nome: nome,
                     telefone: telefone,
                     email: email,
-                    senha: senha,
+                    // senha: senha,
                 }
 
                 localStorage.setItem("salvar", JSON.stringify(obj));
