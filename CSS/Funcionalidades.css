@@ -403,6 +403,22 @@ img{
             width: 100vw;
         }
 
+        .logo{
+            
+        }
+
+        .menu-nav{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background: #FFC300;
+            top: 120px;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         .main-inicio, .main-fun3{
             display: flex;
             align-items: center;
