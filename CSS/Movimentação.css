@@ -275,11 +275,32 @@ nav {
 
         nav{
             width: 100vw;
+            height: 15%;
+        }
+
+        .menu-nav{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background: #FFC300;
+            top: 120px;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .menu-nav > li{
+            display: block;
+            font-size: 110%;
+            text-align: center;
+            margin: 12%;
+            margin-right: 50%;
            
         }
 
         .menu-movi{
-            margin-right: 20%;
+            margin-right: 15%;
         }
 
         .main-movi{
@@ -313,13 +334,14 @@ nav {
             display: flex;
             font-size: 16px;
             text-align: center;
-            margin-right: 15%;
+            margin-right: 25%;
             
            
         }
 
         #imagem{
             width: 80%;
+            margin-top: 10%;
             margin-left: 20%;
         }
 
@@ -372,7 +394,7 @@ nav {
      }
 
      #icon{
-        width: 10%;
+        width: 30%;
      }
 
      .redes-icons{
