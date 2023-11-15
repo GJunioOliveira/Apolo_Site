@@ -274,18 +274,43 @@ nav {
     @media only screen and (max-width: 600px) {
 
         .logo{
-            width: 40%;
-            margin-left: 20%;
+            width: 50%;
+            margin-left: 10%;
         }
 
         nav{
             width: 100vw;
-           
+            height: 15%;
         }
 
         .menu-cadastramento{
             margin-right: 20%;
         }
+
+        .menu-nav{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background: #FFC300;
+            top: 120px;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .menu-nav > li{
+            display: block;
+            font-size: 110%;
+            text-align: center;
+            margin: 12%;
+            margin-right: 50%;
+           
+        }
+
+        .menu-mobile{
+            margin-right: 15%;
+         }
 
         .main-cadastramento{
             display: flex;
@@ -331,6 +356,7 @@ nav {
 
         #imagem{
             width: 80%;
+            margin-top: 10%;
             margin-left: 20%;
         }
 
@@ -349,6 +375,7 @@ nav {
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
+        
      }
 
      .Apolo{
@@ -383,7 +410,7 @@ nav {
      }
 
      #icon{
-        width: 10%;
+        width: 30%;
      }
 
      .redes-icons{
