@@ -22,7 +22,8 @@ class MobileMenu {
     }
 
     handleClick() {
-        this.toggleMenu();
+        this.navList.classList.toggle(this.activeClass);
+        document.body.style.overflow = this.navList.classList.contains(this.activeClass) ? 'hidden' : '';
         this.animateLinks();
     }
 
