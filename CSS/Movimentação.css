@@ -295,7 +295,8 @@ nav {
             font-size: 110%;
             text-align: center;
             margin: 12%;
-            margin-right: 50%;
+            gap: 3em;
+            margin-right: 15%;
            
         }
 
