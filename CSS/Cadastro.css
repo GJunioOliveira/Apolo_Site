@@ -214,8 +214,15 @@ button{
 
 @media only screen and (max-width: 600px) {
    
+    .logo{
+        width: 50%;   
+        margin-left: 20%;
+        margin-bottom: 30%;
+    }
+
     nav{
         width: 100vw;
+        height: 15%;
     }
    
     .main-cadastro{
