@@ -558,6 +558,10 @@ h1{
     text-align: center;
 }
 
+.h1{
+    margin-left: 20%;
+}
+
 h2,p{
     text-align: center;
 }
