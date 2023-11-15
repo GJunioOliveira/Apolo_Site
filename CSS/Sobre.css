@@ -503,14 +503,39 @@ section > p {
 @media only screen and (max-width: 600px)  {
 
     .logo{
-        width: 40%;
+        width: 50%;
+        margin-left: 10%;
     }
 
     nav{
+        width: 100vw;
+        height: 15%;
+    }
+
+    .menu-nav{
         position: fixed;
         width: 100vw;
-        height: 20%;
+        height: 100vh;
+        background: #FFC300;
+        top: 120px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    .menu-nav > li{
+        display: block;
+        font-size: 110%;
+        text-align: center;
+        margin: 12%;
+        margin-right: 50%;
+       
+    }
+
+    .menu-mobile{
+        margin-right: 15%;
+     }
 
 
  .main-sobre, .main-sobre2{
@@ -565,6 +590,7 @@ h1{
 h2,p{
     text-align: center;
 }
+
 
 /* Quem somos */
 
@@ -653,7 +679,7 @@ h2,p{
          }
 
          #icon{
-            width: 10%;
+            width: 30%;
          }
 
          .redes-icons{

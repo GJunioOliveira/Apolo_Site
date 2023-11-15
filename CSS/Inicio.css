@@ -648,6 +648,7 @@ font-family: 'Poppins', sans-serif;
 
     .logo{
         width: 50%;   
+        margin-left: 10%;
     }
 
     nav{
@@ -695,7 +696,7 @@ font-family: 'Poppins', sans-serif;
         align-items: center;
         justify-content: center;
         text-align: center;   
-        margin-left: 50%;
+        margin-left: 75%;
         font-size: 2em;
         margin-top: 50%;
     }
@@ -752,6 +753,10 @@ font-family: 'Poppins', sans-serif;
         flex-direction: row;
         background: none;
         box-shadow: none;
+     }
+
+     .mobile{
+        width: 90%;
      }
 
      .card > p{
@@ -833,7 +838,7 @@ font-family: 'Poppins', sans-serif;
      }
 
      #icon{
-        width: 10%;
+        width: 25%;
      }
 
      #mobile-img{
