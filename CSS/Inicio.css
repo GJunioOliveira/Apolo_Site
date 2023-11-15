@@ -656,9 +656,10 @@ font-family: 'Poppins', sans-serif;
         height: 15%;
     }
 
-    .menu-nav{
+    .menu-nav {
         position: fixed;
-        width: 100vw;
+        width: 100%; /* ou qualquer valor desejado para ocupar a largura desejada */
+        max-width: 1000px; /* ou qualquer valor desejado para definir a largura máxima */
         height: 100vh;
         background: #FFC300;
         top: 120px;
@@ -666,16 +667,17 @@ font-family: 'Poppins', sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 1000;
     }
 
-    .menu-nav > li{
+    .menu-nav > li {
         display: block;
         font-size: 110%;
         text-align: center;
         margin: 12%;
         margin-right: 50%;
-       
     }
+}
 
 
     .main-inicio{
