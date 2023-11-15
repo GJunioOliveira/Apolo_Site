@@ -820,12 +820,14 @@ font-family: 'Poppins', sans-serif;
         justify-content: flex-start;
      }
 
+  
      ul{
         text-align: start;
      }
 
      #sub{
         margin-left: 2%;
+        font-size: 15px;
      }
 
    
