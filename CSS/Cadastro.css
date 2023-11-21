@@ -135,7 +135,7 @@ svg {
     font-weight: 900;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 42px;
 }
 
 .textfield{
@@ -200,12 +200,23 @@ button{
 }
 
 
+@media screen and (min-width: 1025px) {
+    .card-cadastro > h1{
+        font-size: 40px;
+        align-items: center;
+        font-weight: 500;
+    }
 
-
-
-@media only screen and (max-width: 950px) {
     .card-cadastro{
-        width: 85%;
+        width: 80%;
+    }
+    
+  }
+
+
+@media only screen and (min-width: 950px) {
+    .card-cadastro{
+        width: 60%;
 
     }
     
