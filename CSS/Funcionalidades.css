@@ -444,6 +444,7 @@ img{
 
         .main-fun2 > .card{
             gap: 2em;
+            margin-left: 7%;
         }
         .main-fun3 > .card{
             margin: 5%;
