@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Cadastramento.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <nav>
+        <a class="logo-a" href="../HTML/inicio.html"><img class="logo" src="../Imagens/../Imagens/logo-5-miniatura-negativa-removebg-preview.png" alt=""></a>
+        
+        
+        <div class="menu-mobile">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+    </div>
+
+            <ul id="menu" class="menu-nav">
+                <li class="animate__animated animate__backInRight"><a id="1" href="../HTML/Funcionalidades.html">Funcionalidades</a></li>
+                <!-- <li class="animate__animated animate__backInRight"><a id="1" href="../HTML/Planos.html">Planos</a></li> -->
+                <li class="animate__animated animate__backInRight"><a id="1" href="../HTML/Sobre.html">Sobre nós</a></li>
+                <li class="animate__animated animate__tada animate__repeat-2"><a id="1" class="ativo" href="../HTML/Cadastro.html">Cadastra-se</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="main-cadastramento">
+        
+            
+        <div class="cadastramento-esquerdo">
+
+            <h1 >Com funções de cadastramento rápido para seu gerenciamento!</h1>
+                <p>O sistema Apolo traz menus intuitivos para o uso em seu dia a dia. <br>
+                    Acrescenta funções de cadastramento rápido para o seu gerenciamento, <br>
+                    tornando a sua vida mais fácil.</p>
+            
+            <!-- <img src="./Imagens/Imagem 1.png" id="Imagem1" alt=""> -->
+                        
+            </div> <!--cadastramento-esquerdo -->
+        
+            <div class="cadastramento-direito">
+                    
+                
+               
+                <img class="animate__animated animate__fadeInRight  animate__delay-0.5s" id="imagem" src="../Imagens/Cadastro23-removebg-preview.png" alt="">
+               
+             
+        
+            </div> <!--cadastramento-direito -->        
+         </div> <!-- Main-cadastramento -->
+
+         <div class="final">
+
+            <div class="Apolo">
+
+                <img class="logo-5" src="../Imagens/logo-5-positivo-total-removebg-preview.png" alt="">
+            
+
+            </div><!--Apolo -->
+            
+            <div class="Funcionalidades">
+                <ul>
+                    <li><a href="../HTML/Funcionalidades.html">Funcionalidades</a></li>
+                    <li><a href="../HTML/Cadastro.html">Teste grátis</a></li>
+                    <li><a href="../HTML/Sobre.html">Sobre nós</a>
+                    <span id="sub">-Quem Somos</span>
+                    <span id="sub">-Nossa Missão</span>
+                    <span id="sub">-Nossos Valores</span>
+                    </li>
+             </ul>
+
+
+
+             </div> <!--Funcionalidades -->
+            <div class="Sobre">
+                <div class="redes-icons">
+                    <a href="https://www.instagram.com/apolo_tech1/"><img id="icon" src="../Imagens/instagram.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/apolo-tech-4bb01729b/"><img id="icon"  src="../Imagens/linkedin.png" alt=""></a>
+                  </div>
+                  <br>
+                  <div class="redes">
+                  <span style="font-size: 1.3em;font-family: 'Poppins', sans-serif;">Contatos</span>
+                  <span style="font-size: 1.3em; font-family: 'Poppins', sans-serif;">Telefone: (21)9856-9765</span>
+                  <span style="font-size: 1.3em; font-family: 'Poppins', sans-serif;">Email: apolotech6@gmail.com</span>        
+            </div>
+            </div> <!--Sobre -->
+
+          </div> <!--final -->
+
+          
+
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <!-- <script>
+            // $(document).ready(function () {
+                // var animatedElement = $(".animate__animated");  // PRECISO FAZER A ALTERAÇÃO AQUI(ATUALMENTE ESTA CORRETO)
+                // var animationClass = "animate__fadeInRight";
+    
+                // function checkAnimation() {
+                    animatedElement.each(function () {
+                        var offset = $(this).offset();
+                        var windowHeight = $(window).height();
+                        var scrollTop = $(window).scrollTop();
+    
+                        if (offset.top - scrollTop < windowHeight) {
+                            $(this).removeClass(animationClass);
+                            void $(this).width(); // Força uma reflow
+                            $(this).addClass(animationClass);
+                        }
+                    });
+                }
+    
+                // Chame a função quando a página é carregada e sempre que a página é rolada
+                checkAnimation();
+    
+                $(window).scroll(function () {
+                    checkAnimation();
+                });
+            });
+        </script> -->
+                   
+                   <script src="../JavaScript/Mobile-Menu.js"></script>
+          </body>
+</html>

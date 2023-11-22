@@ -4,14 +4,16 @@ body{
     overflow-x: hidden;
     background-color: rgb(231, 230, 230);
     /* background-color: rgb(252, 248, 248); */
+    /* overflow-y:; */
+    
 }
 
 body *{
     box-sizing: border-box;
     
+    
 }
 
-/* Menu */
 
 nav {
     position: fixed;
@@ -24,12 +26,15 @@ nav {
     height: 15%;
     border: 1.8px solid rgb(0, 0, 0);
     z-index: 2;
-    
 }
 
+.animated-element {
+    animation: fadeInRight 1s ease-in-out;
+  }
+  
+
 .logo{
-    width: 15vw;
-    
+    width: 15vw;   
 }
 
 .menu-nav{
@@ -50,15 +55,18 @@ nav {
     font-size: 1.1em;
     font-family: 'Poppins', sans-serif;
     /* text-shadow: rgb(180, 162, 0) 0px 0.5px; */
+
+
 }
 
 .menu-nav a:hover, .menu-nav a.ativo{
-    /* color: rgb(255, 255, 255); */
+     /* color: rgb(255, 255, 255); */
     color: rgb(0, 0, 0);
     /* background: rgb(255, 215, 0); */
     /* background: black; */
     background: #FFC300;
     /* background: rgb(255, 255, 255); */
+
 }
 
 .menu-nav > li{
@@ -67,110 +75,54 @@ nav {
    
 }
 
-.main-fun{
+
+.main-cadastramento {
+    display: flex;
     width: 100vw;
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 2px 0px;
-    
-    
-}
-
-.fun-esquerdo{
-    width: 50vw;
-    height: 85vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-      
-}
-
-.fun-direito{
-    width: 50vw;
-    height: 85vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
-h1{
-    margin-left: 100px;
-    font-family: 'Poppins', sans-serif;
-}
-
-img{
-    width: 40vw;
-}
-
-/* Parte Dois */
-
-.main-fun2,.main-fun3{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
     background-color: rgb(231, 230, 230);
     /* background-color: rgb(252, 248, 248); */
     
 }
 
-.card{
-    background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 30px; /* 1ºvalor- É em relação ao eixo y (no caso em cima) 2ºvalor- É em relação ao eixo x (direita e esquerda) */
-        flex-direction: column;
-        
+.cadastramento-esquerdo {
+    display: flex;
+    width: 60vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 
+.cadastramento-direito{
+    display: flex;
+    width: 40vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
 
-
-
-.card> h3, .card>p{
+.cadastramento-esquerdo > h1{
+    margin-left: 10%;
     font-family: 'Poppins', sans-serif;
 }
 
-.card> a img{
-    width: 20vw;
-    transition: transform 0.3s ease-in-out;
-    z-index: 1;
-}
-
-.card> a img:hover{
-    transform: translateY(-10px); /* O valor negativo faz a imagem "pular" para cima */
+.cadastramento-esquerdo > p{
+    margin-right: 6%;
+    font-family: 'Poppins', sans-serif;
 }
 
 
-
-.card a:hover{
-    color:#FFC300;
-    
+#imagem{
+    width: 110%;
+    margin-right: 85px;
 }
-   
-/*  Css Mobile */ 
-.menu-mobile{
-    display: none;
-    cursor: pointer;
-}
-
-.menu-mobile div{
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    /* background: #000; */
-    margin: 8px;
-}
-
 
 /* Final */
 
@@ -206,7 +158,7 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: baseline;
-        margin-left: 0px;
+       
         font-size: 12.5px;
     }
 
@@ -220,94 +172,54 @@ img{
         
     }
 
-
-    .logo-5{
-        width: 20vw;
-        margin-left: 70px;
-    }
-
     .Funcionalidades > ul li, a{
-       list-style: none;
+        list-style: none;
        text-decoration: none;
        font-size: 1.1em;
        font-family: 'Poppins', sans-serif;
        color: black;
     }
 
-    
     #icon{
         width: 3vw;
         margin-left: 15px;
     }
-    
+
     .redes-icons{
-    margin-right: 230px;
-    /* box-shadow: 0px 0.2px 0px 0px ; */
-    }
-      
+        margin-right: 230px;
+        /* box-shadow: 0px 0.2px 0px 0px ; */
+        }
+        
         
         .redes{
             display: flex;
             flex-direction: column;
         }
 
+    .logo-5{
+        width: 20vw;
+        margin-left: 70px;
+    }
+
+   
+
+    /* Css Mobile */
+.menu-mobile{
+    display: none;
+    cursor: pointer;
+}
+
+.menu-mobile div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    /* background: #000; */
+    margin: 8px;
+}
+
 
     @media only screen and (max-width:999px) {
- 
-        body{
-            margin: 0;
-            overflow-x: hidden;
-            /* overflow-y:; */
-            
-        }
-        
-        body *{
-            box-sizing: border-box;
-            
-            
-        }
-        
-    
-             nav{
-                width: 100%;
-             }
-    
-             .main-inicio{
-                width: 100%;
-                height: 100%;
-                box-shadow: none;
-             }
-    
-             .inicio-esquerdo{
-                width: 60vw;
-                height: 100vh;
-                display: flex;
-             }
-    
-             
-             .inicio-direito{
-                width: 40vw;
-                height: 100vh;
-             }
-    
-             .main2{
-                width: 100%;
-                height: 100%;
-                margin-top: 5%;
-             }
-    
-             .main3{
-                width: 100%;
-                height: 100%;
-                margin-top: 5%;
-             }
-    
-             .final{
-                width: 100%;
-                height: 100%;
-             }
-            
-            
+   
             
              /* Mobile */
              .menu-mobile li{
@@ -319,15 +231,17 @@ img{
             position: absolute;
             top: 8vh;
             right: 0;
-            width: 50vw;
-            height: 60vh;
+            width: 60vw;
+            height: 100vh;
             background: white;
             flex-direction: column;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-evenly;
             transform: translateX(100%);
             transition: transform 0.3s ease-in;
+        
           }
+    
     
           .menu-nav.active{
             transform: translateX(0);
@@ -335,6 +249,7 @@ img{
     
           .menu-mobile{
             display: block;
+            
           }
     
              
@@ -354,24 +269,23 @@ img{
          } /*to */
     
     } /* keyframe */
-    
-    
-    
-    
+
+
     @media only screen and (max-width: 600px) {
-    
-        
-        
+
         .logo{
-            width: 50%;   
+            width: 50%;
             margin-left: 10%;
         }
-        
+
         nav{
             width: 100vw;
-            height: 15%;
+            height: 10%;
         }
-      
+
+        .menu-cadastramento{
+            margin-right: 20%;
+        }
 
         .menu-nav{
             position: fixed;
@@ -399,115 +313,111 @@ img{
             margin-right: 15%;
          }
 
-        .main-inicio{
+        .main-cadastramento{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column-reverse;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .cadastramento-direito,.cadastramento-esquerdo{
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            width: 100%;
             height: 100%;
-        }
-         .main-fun2, .main-fun3{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: row;
             width: 100%;
-            height: 100%;
+            margin-top: 20%;
         }
-
-        #imagen-inicio{
-            display: none;
-        }
-
-        .fun-direito, .fun-esquerdo{
+        .cadastramento-esquerdo{
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            width: 100%;
             height: 100%;
-
+            width: 100%;
         }
 
-        .fun-esquerdo > h1{
-            margin-left:48%;
+        h1{
+            display: flex;
+            font-size: 16px;
             text-align: center;
-        }
-
-
-        /* Card */
-
-        .card > p{
-            display: none;
-        }
-
-        .main-fun2 > .card{
-            gap: 2em;
-        }
-        .main-fun3 > .card{
-            margin: 5%;
-        }
-
-        /* Fim Card */
-        
-
-
-
-        /* Final */
-        .logo-5{
-            margin: 0;
-            width: 50%;
-        }
-          
-             .final{
-                width: 100%;
-                height: 100%;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-                flex-direction: column;
-             }
-        
-             .Apolo{
-                width: 100%;
-                align-items: flex-start;
-                justify-content: flex-start;
-             }
-        
-            
-             .Funcionalidades{
-                width: 100%;
-                align-items: flex-start;
-                justify-content: flex-start;
-             }
-
-             ul{
-                text-align: start;
-             }
-
-             #sub{
-                margin-left: 2%;
-             }
-        
+            margin-right: 10%;
            
-             .Sobre{
-                width: 100%;
-                height: 100%;
-                margin-left: 10%;
-                align-items: flex-start;
-                justify-content: flex-start;
-             }
+        }
+        p{
+            display: flex;
+            font-size: 16px;
+            text-align: center;
+            margin-left: 5%;
+           
+        }
 
-             #icon{
-                width: 30%;
-             }
+        #imagem{
+            width: 80%;
+            margin-top: 10%;
+            margin-left: 20%;
+        }
 
-             .redes-icons{
-                margin-top: 5%;
-             }
 
-             
+
+/* Final */
+.logo-5{
+    margin: 0;
+    width: 50%;
+}
+  
+     .final{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
         
-        
-     } /* 600px */
+     }
+
+     .Apolo{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+     }
+
+    
+     .Funcionalidades{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+     }
+
+     ul{
+        text-align: start;
+     }
+
+     #sub{
+        margin-left: 2%;
+     }
+
+   
+     .Sobre{
+        width: 100%;
+        height: 100%;
+        margin-left: 10%;
+        align-items: flex-start;
+        justify-content: flex-start;
+     }
+
+     #icon{
+        width: 30%;
+     }
+
+     .redes-icons{
+        margin-top: 5%;
+     }
+
+     
+
+
+} /* 600px */
