@@ -442,6 +442,11 @@ img{
             display: none;
         }
 
+        h3 > #movi{
+            font-size: 19px;
+            font-weight: 600;
+        }
+
         .main-fun2 > .card{
             gap: 2em;
             margin-left: 7%;
