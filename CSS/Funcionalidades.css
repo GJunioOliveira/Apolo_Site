@@ -134,7 +134,9 @@ img{
 }
 
 
-
+.main-fun3 > .card{
+    padding: 8%;
+}
 
 .card> h3, .card>p{
     font-family: 'Poppins', sans-serif;
