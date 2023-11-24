@@ -108,15 +108,18 @@ nav {
     
 }
 
-.cadastramento-esquerdo > h1{
+.cadastramento-esquerdo > h1,.cadastramento-esquerdo > p{
     margin-left: 10%;
     font-family: 'Poppins', sans-serif;
+   
 }
 
 .cadastramento-esquerdo > p{
-    margin-right: 6%;
-    font-family: 'Poppins', sans-serif;
+    white-space: pre-line;
+    margin-bottom: 10px;
+    margin-right: 22%;
 }
+
 
 
 #imagem{
