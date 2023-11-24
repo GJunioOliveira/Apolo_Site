@@ -343,20 +343,19 @@ nav {
             width: 100%;
         }
 
-        h1,p{
+        .cadastramento-esquerdo > h1{
             display: flex;
             font-size: 16px;
             text-align: center;
-            margin-right: 10%;
-           
+           margin-left: 1%;
         }
-        /* p{
+
+        .cadastramento-esquerdo > p{
             display: flex;
             font-size: 16px;
             text-align: center;
-            margin-left: 5%;
-           
-        } */
+           margin-left: 20%;
+        }
 
         #imagem{
             width: 80%;
