@@ -343,20 +343,20 @@ nav {
             width: 100%;
         }
 
-        h1{
+        h1,p{
             display: flex;
             font-size: 16px;
             text-align: center;
             margin-right: 10%;
            
         }
-        p{
+        /* p{
             display: flex;
             font-size: 16px;
             text-align: center;
             margin-left: 5%;
            
-        }
+        } */
 
         #imagem{
             width: 80%;
