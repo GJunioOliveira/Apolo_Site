@@ -340,7 +340,7 @@ nav {
         }
 
         .mobile-esquerdo > h1{
-            display: flex;
+            display: none;
             font-size: 15px;
             text-align: center;
            margin-left: 1%;
