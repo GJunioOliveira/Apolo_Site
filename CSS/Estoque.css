@@ -107,10 +107,21 @@ nav {
     margin-right: 80px;
 }
 
-.estoque-esquerdo > h1, .estoque-esquerdo > p{
-    margin-left: 100px;
+.estoque-esquerdo > h1,.estoque-esquerdo > p{
+    margin-left: 10%;
     font-family: 'Poppins', sans-serif;
 }
+
+.estoque-esquerdo > p{
+    white-space: pre-line;
+    margin-bottom: 10px;
+    margin-right: 22%;
+}
+
+/* .estoque-esquerdo > h1, .estoque-esquerdo > p{
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+} */
 
 
 

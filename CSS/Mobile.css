@@ -101,7 +101,19 @@ nav {
     /* background-color: rgb(252, 248, 248); */
 }
 
-.mobile-esquerdo > h1{
+.mobile-esquerdo > h1,.mobile-esquerdo > p{
+    margin-left: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mobile-esquerdo > p{
+    white-space: pre-line;
+    margin-bottom: 10px;
+    margin-right: 22%;
+}
+
+
+/* .mobile-esquerdo > h1{
     margin-left: 100px;
     font-family: 'Poppins', sans-serif;
 }
@@ -109,7 +121,7 @@ nav {
 .mobile-esquerdo > p{
     margin-left: 100px;
     font-family: 'Poppins', sans-serif;
-}
+} */
 
 #imagem{
     margin-top: 50px;

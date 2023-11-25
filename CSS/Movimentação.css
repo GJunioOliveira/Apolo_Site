@@ -110,9 +110,21 @@ nav {
 }
 
 .movi-esquerdo > h1,.movi-esquerdo > p{
-    margin-left: 90px;
+    margin-left: 10%;
     font-family: 'Poppins', sans-serif;
 }
+
+.movi-esquerdo > p{
+    white-space: pre-line;
+    margin-bottom: 10px;
+    margin-right: 22%;
+}
+
+
+/* .movi-esquerdo > h1,.movi-esquerdo > p{
+    margin-left: 90px;
+    font-family: 'Poppins', sans-serif;
+} */
 
 
 
